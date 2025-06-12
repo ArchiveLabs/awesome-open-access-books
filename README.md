@@ -26,3 +26,9 @@ The resource should be a **direct** URL to a listing of at least 10 open access 
 * [BookDash.org](https://bookdash.org/books) beautiful open access children's books for all
   * List all books: `curl -s https://bookdash.org/books-sitemap.xml | grep -o 'https://bookdash.org/books/[^<]*'`
   * [Not yet in Open Library](https://github.com/internetarchive/openlibrary/issues/10856#issue-3094159822)
+ 
+## Other Open Access Web Books
+
+* https://github.com/learn-anything/books also has a subset of presumably open access books that can be extracted via:
+  * `curl -s https://raw.githubusercontent.com/learn-anything/books/refs/heads/master/readme.md | grep -Ei '\.pdf|\.html|\.epub'`
+
