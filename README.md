@@ -7,6 +7,8 @@ The resource should be a **direct** URL to a listing of at least 10 open access 
 
 ## Open Access Textbooks
 
+* [AI University](https://b1n9ui.github.io/ai-university/en/books/) — 10 complete AI-authored textbooks in mathematics and programming, with interactive diagrams and worked exercise solutions.
+
 * [OpenStax](https://openstax.org/subjects)
   * List of all books: `curl -s https://openstax.org/sitemap.xml | grep -o 'https://openstax.org/details/books/[^<]*'`
 * [UMN Open Textbook Library](https://open.umn.edu/opentextbooks)
